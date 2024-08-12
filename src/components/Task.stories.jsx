@@ -33,3 +33,13 @@ export const Archived = {
     },
   },
 };
+
+export const LongTitle = {
+  args: {
+    task: {
+      ...Default.args.task,
+      title:
+        "Reactで構築したUIコンポーネントをStoryBookでプロジェクトチーム内で共有する方法を本講座では学びます。コンポーネント駆動開発(CDD)しながらStoryBookの理解を深め、実務で使えるStoryBookの技術力を身に着けます",
+    },
+  },
+};
